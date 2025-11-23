@@ -34,7 +34,7 @@ Pracovní pozice, pokud nemá materiály pošle požadavek RobotDispatcherovi
 ## licence
 Tento projekt je licencován pod MIT Licencí.
 
-Více najdete zde [LICENCE](LICENCE)
+Více najdete zde [LICENSE](LICENSE)
 
 ## instalace
 pro spuštění programu je potřeba Java verze 17 a Maven

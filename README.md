@@ -49,7 +49,15 @@ cd RobotWorkplaceMultithreading
 spusťte pomocí Maven
 
 ```
-mvn exec:java -Dexec.mainClass="com.example.Main"
+mvn exec:java -Dexec.mainClass="org.example.Main"
+```
+
+případně pokud není možnë použít maven nainstalujte pomocï příkazů níže
+```
+cd src\main\java\org\example
+javac Main.java Material.java WorkTimer.java robots\Robot.java robots\RobotDispatcher.java robots\RobotStatus.java robots\RobotTask.java workplaces\Workplace.java
+cd ../..
+java org.example.Main
 ```
 
 
